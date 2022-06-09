@@ -1,0 +1,50 @@
+.title {
+    color: white;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    width: 90%;
+    margin: 5% auto;
+}
+
+.project {
+    background-color: azure;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 20px 20px;
+    transition: 0.8s;
+}
+
+.project:hover {
+    border-radius: 20px;
+    box-shadow: -20px -20px;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.project-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px;
+}
+
+.project-details {
+    padding: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 70%;
+        margin: 5% auto;
+    }
+}
