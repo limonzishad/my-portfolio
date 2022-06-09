@@ -1,0 +1,51 @@
+.home-section {
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-button {
+    background-color: #263238;
+    border: 2px solid black;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    transition: 0.8s;
+    padding: 10px 25px;
+}
+
+.resume-button:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.left-side {
+    padding: 0 5%;
+}
+
+.right-side {
+    width: 60%;
+}
+
+.right-side img {
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 20px 20px;
+    transition: 0.8s;
+}
+
+.right-side:hover img {
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: -20px -20px;
+}
+
+.custom-text {
+    text-align: justify;
+    color: white;
+    font-size: large;
+}

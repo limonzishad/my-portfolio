@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import "../css/Common.css";
 
 const NavBar = () => {
     return (
-        <Navbar bg="dark" expand="lg" variant="dark" className="custom-font">
+        <Navbar bg="dark" expand="lg" variant="dark">
             <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
