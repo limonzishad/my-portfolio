@@ -49,3 +49,31 @@
     color: white;
     font-size: large;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1425px) {
+    .left-side {
+        width: 95%;
+    }
+
+    .right-side {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-side {
+        width: 80%;
+    }
+
+    .right-side {
+        margin: 10% auto;
+    }
+
+}
