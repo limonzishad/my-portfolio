@@ -1,11 +1,25 @@
 import React from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import "../css/Common.css";
 
-const Navbar = () => {
+const NavBar = () => {
     return (
-        <div>
-
-        </div>
+        <Navbar bg="dark" expand="lg" variant="dark" className="custom-font">
+            <Container>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
+                    <Nav className="text-center">
+                        <Nav.Link href="#home">HOME</Nav.Link>
+                        <Nav.Link href="#about">ABOUT</Nav.Link>
+                        <Nav.Link href="#skills">SKILLS</Nav.Link>
+                        <Nav.Link href="#education">EDUCATION</Nav.Link>
+                        <Nav.Link href="#contact">CONTACT</Nav.Link>
+                        <Nav.Link href="#projects">PROJECTS</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 }
 
-export default Navbar;
+export default NavBar;
