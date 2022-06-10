@@ -32,7 +32,7 @@ const Contact = () => {
                     <label>Message</label>
                     <textarea className="form-control" name="message" required />
                 </div>
-                <div className="w-75 mx-auto py-3">
+                <div className="w-100 mx-auto py-3">
                     <button className="w-100 btn btn-primary btn-lg mx-auto" type="submit">SEND</button>
                 </div>
             </form>

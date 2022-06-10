@@ -13,6 +13,7 @@ const NavBar = () => {
                         <Nav.Link href="#skills">SKILLS</Nav.Link>
                         <Nav.Link href="#projects">PROJECTS</Nav.Link>
                         <Nav.Link href="#education">EDUCATION</Nav.Link>
+                        <Nav.Link href="#blogs">BLOGS</Nav.Link>
                         <Nav.Link href="#contact">CONTACT</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
