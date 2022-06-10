@@ -15,12 +15,14 @@
     font-weight: 700;
     transition: 0.8s;
     padding: 10px 25px;
+    border-radius: 5px;
 }
 
 .resume-button:hover {
     background-color: white;
     border: 2px solid black;
     color: black;
+    border-radius: 5px;
 }
 
 .left-side {
@@ -28,7 +30,7 @@
 }
 
 .right-side {
-    width: 60%;
+    width: 40%;
 }
 
 .right-side img {

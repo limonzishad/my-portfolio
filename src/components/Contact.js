@@ -17,7 +17,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="form-container">
+        <div id="contact" className="form-container">
             <h1 className="text-center pt-2 pb-0 mb-0">CONTACT ME</h1>
             <form className="w-50 mx-auto pb-5" ref={form} onSubmit={sendEmail}>
                 <div className="py-3">

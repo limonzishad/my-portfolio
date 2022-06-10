@@ -1,5 +1,11 @@
 .title {
     color: white;
+    margin-bottom: 3%;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
 }
 
 .project-container {
@@ -7,7 +13,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 5%;
     width: 90%;
-    margin: 5% auto;
+    margin: 0 auto;
+    margin-bottom: 5%;
 }
 
 .project {
@@ -16,6 +23,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     border-radius: 20px;
     box-shadow: 20px 20px #222;
     transition: 0.8s;
@@ -40,11 +48,97 @@
     padding: 5%;
 }
 
+/* project link buttons */
+
+.button-group {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+}
+
+.live-site {
+    background-color: azure;
+    border: 2px solid black;
+    color: black;
+    transition: 0.8s;
+    border-radius: 5px;
+}
+
+.live-site:hover {
+    background-color: #43A047;
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+}
+
+.git-link {
+    background-color: azure;
+    border: 2px solid black;
+    color: black;
+    transition: 0.8s;
+    border-radius: 5px;
+}
+
+.git-link:hover {
+    background-color: #E53935;
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+}
+
+.details-button {
+    font-weight: 700;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 2% 0;
+    background-color: azure;
+    border: 2px solid black;
+    color: black;
+    transition: 0.8s;
+    border-radius: 5px;
+}
+
+.details-button:hover {
+    background-color: #039BE5;
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 767px) {
     .project-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
         width: 70%;
         margin: 5% auto;
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 934px) {
+    .button-group {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5%;
+    }
+
+    .details-button {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .button-group {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5%;
+    }
+
+    .details-button {
+        margin-top: 10%;
     }
 }
