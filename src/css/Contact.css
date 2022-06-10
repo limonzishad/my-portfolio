@@ -1,0 +1,8 @@
+.form-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #222;
+    color: white;
+    margin-bottom: 10%;
+    border-radius: 20px;
+}

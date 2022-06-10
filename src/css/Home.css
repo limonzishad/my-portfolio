@@ -34,14 +34,14 @@
 .right-side img {
     width: 90%;
     border-radius: 20px;
-    box-shadow: 20px 20px;
+    box-shadow: 20px 20px #222;
     transition: 0.8s;
 }
 
 .right-side:hover img {
     width: 90%;
     border-radius: 20px;
-    box-shadow: -20px -20px;
+    box-shadow: -20px -20px #222;
 }
 
 .custom-text {
